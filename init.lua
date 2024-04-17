@@ -19,4 +19,6 @@ require("soujanya.plugins.indent")
 require("soujanya.plugins.cmd")
 require("soujanya.plugins.snake")
 require("soujanya.plugins.obsidian")
+require("soujanya.plugins.toggleterm")
+
 

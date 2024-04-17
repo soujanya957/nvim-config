@@ -226,8 +226,11 @@ require("lazy").setup({
         event = "VeryLazy",
         opts = {},
         config = function(_, opts) require 'lsp_signature'.setup(opts) end
-    }
-    
+    },
+
+  -- amongst your other plugins
+  {'akinsho/toggleterm.nvim', version = "*", config = true},
+
 
 })
 

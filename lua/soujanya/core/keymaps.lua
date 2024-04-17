@@ -59,6 +59,9 @@ vim.keymap.set("n", "<leader>ol", "<cmd>ObsidianLinks<CR>", { desc = "Show Obsid
 vim.keymap.set("n", "<leader>on", "<cmd>ObsidianNew<CR>", { desc = "Create New Note" })
 vim.keymap.set("n", "<leader>os", "<cmd>ObsidianSearch<CR>", { desc = "Search Obsidian" })
 vim.keymap.set("n", "<leader>oq", "<cmd>ObsidianQuickSwitch<CR>", { desc = "Quick Switch" })
+vim.keymap.set("n", "<leader>of", "<cmd>ObsidianFollowLink [vsplit|hsplit]<CR>", { desc = "Follow link" })
+-- vim.keymap.set("n", "<leader>ov", "<cmd>ObsidianFollowLink vsplit<CR>", { desc = "Follow link" })
+-- :ObsidianFollowLink [vsplit|hsplit]
 
 
 
